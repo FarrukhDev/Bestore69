@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Vibra Stick</title>
+    <link rel="icon" href="{% static 'vibro/images/icon.svg' %}" type="image/svg" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sog'lom hayot">
+    <meta name="keywords" content="Sog'lom hayot">
+    <link href="{% static 'vibro/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'vibro/css/animate.css' %}"> <!-- Resource style -->
+    <link rel="stylesheet" href="{% static 'vibro/css/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'vibro/css/owl.theme.css' %}">
+    <link rel="stylesheet" href="{% static 'vibro/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'vibro/css/ionicons.min.css' %}"> <!-- Resource style -->
+    <link href="{% static 'vibro/css/style.css' %}" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{% static 'vibro/css/custom.css' %}">
+
+    <style>
+        .bestore-link:hover{
+            color: #41CD52 !important;
+        }
+        .button-link button:active,
+        .button-link button:hover,
+        .button-link button:link,
+        .button-link button:focus
+        {
+          border: none !important;
+          text-decoration: none !important;
+          outline: none !important;
+        }
+        .button-link:active,
+        .button-link:hover,
+        .button-link:link,
+        .button-link:focus
+        {
+            border: none !important;
+            text-decoration: none !important;
+            outline: none !important;
+        }
+    </style>
+
+</head>
+<body>
+<div class="call-icon">
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+        </svg>
+    </div>
+    <a href="tel:+998950907849">(95) 090-78-49</a>
+
+</div>
+<div class="wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo-main" href="https://bestore.uz/" style="padding: 8px 0">
+                    <img src="{% static 'vibro/images/bestore.png' %}" alt="">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a class="page-scroll" href="#">Bosh sahifa</a></li>
+                    <li><a class="page-scroll" href="#features">Mahsulot</a></li>
+                    <li><a class="page-scroll" href="#spec-1">Natija</a></li>
+                    <li><a class="page-scroll" href="#spec-2">Qulayliklar</a></li>
+                    <li><a class="page-scroll" href="#buy">Narxlar</a></li>
+                    <li><a href="#reviews" style="border-radius: 50px; border: 1px solid #fff; " class="btn btn-nav page-scroll wow fadeInDown" data-wow-delay="0.3s"><span>Buyurtma berish</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><!-- /.navbar-collapse -->
+
+    <div id="main" class="main main-2">
+        <div class="hero-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-6">
+                        <div class="intro">
+                            <h1 class="wow fadeInDown" data-wow-delay="0.1s"><span>Vibra</span>Stick</h1>
+                            <p style="max-width: 500px !important; font-size: 20px !important;" class="wow fadeInDown" data-wow-delay="0.2s">Internetni portlatgan, mashhur mahsulot endi
+                                <a class="bestore-link" href="#" style="text-decoration: none; color: #4cae4c; font-weight: 800;">Bestore</a> online do'konida!</p>
+                            <!--                  <a href="#" class="btn btn-action btn-fb wow fadeInDown" data-wow-delay="0.3s"><span>Buy Now</span></a>-->
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-6">
+                        <img class="img-responsive mobile-img" src="{% static 'vibro/images/product-2.png' %}" alt="Feature">
+                    </div>
+                </div>
+            </div>
+        </div><!-- Pi-Hero -->
+
+        <div id="features" class="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="features-text wow fadeInDown">
+                            <h2 style="font-weight: 900;">Vibra Stick qanday mahsulot?</h2>
+                            <p>Vibra stick mahsuloti - sog’liq uchun foydali bo’lib, tanadagi yog’larni eritadi. Badanning tebranishi davomida qorindagi presslarni chiqaradi, keng yelka hosil qiladi va chiroyli qomatni chiqarishga yordam beradi. Qo'shimchasiga mushaklarni harakatlantirib, ularni baquvvat qiladi. Undan tashqari, Sizni ortiqcha vazn va semirib ketishdan saqlaydi. Agar tanangizda og’irlik, holsizlik va charchoqni sezsangiz, bu mahsulot sizni bu muammodan qutulishingizga yordam beradi. Undan tashqari butun tanangiz chiniqishga ham yordam beradi. Doimiy shug’ullanish esa ruhingizga katta foyda berib, sizni har qanday qo’rquvdan halos etadi.
+                                <br><br>
+                            </p>
+                            <p>
+                                Hozir foydalanishni boshlash, zararli ozdiradigan dori vositalariga pul sarflashga hojat qoldirmaydi, va ortiqcha vazn to’planishi va semirib ketishni oldini oladi.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="features-image wow fadeInRight">
+                                 <img class="img-responsive img-rounded" src="{% static 'vibro/images/video.gif' %}" alt="Image"
+                                 style=" width: 100% !important;">
+                            <br><br>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-12">
+                        <iframe class="custom-video" src="https://www.youtube.com/embed/iJneR4YUYnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+<!--                    <a class="button-link" href="#reviews" style="margin-top: 10px !important;">-->
+<!--                        <button  class="btn btn-lg btn-success new-sbm-btn btn-block" type="submit" name="submit"-->
+<!--                                 style="margin:20px 0;  border: 1px solid #fff; border-radius: 50px;" style="border-radius: 50px; border: 1px solid #fff">Buyurtma-->
+<!--                            berish-->
+<!--                        </button>-->
+<!--                    </a>-->
+                </div>
+                <div class="row d-flex align-items-center justify-content-center " style="padding-bottom: 30px">
+                    <div class="container" style="max-width: 800px;padding: 15px;
+                            height: 260px;
+                            width: 100%;
+                            margin-padding: 30px;
+                            background: white;
+                            ">
+                        <h1 class="text-center" style="font-weight: 900; font-family: 'Poppins', sans-serif;" style="border-radius: 50px; border: 1px solid #fff;">Buyurtma uchun pastdagi anketani to'ldiring:</h1>
+                        <br><br>
+                        <form action="" method="post" >
+                            {% csrf_token %}
+                            <div class="">
+                                <select class="form-control country_select input  " required="" name="citi">
+                                    <option disabled="" selected="" value="">Hududni tanlang</option>
+                                    <option value="1">Andijon</option>
+                                    <option value="2">Buxoro</option>
+                                    <option value="3">Fargʻona</option>
+                                    <option value="4">Jizzax</option>
+                                    <option value="5">Namangan</option>
+                                    <option value="6">Navoiy</option>
+                                    <option value="7">Qashqadaryo</option>
+                                    <option value="8">Qoraqalpogʻiston</option>
+                                    <option value="9">Samarqand</option>
+                                    <option value="10">Sirdaryo</option>
+                                    <option value="11">Surxondaryo</option>
+                                    <option value="12">Toshkent</option>
+                                    <option value="13">Toshkent viloyati</option>
+                                    <option value="14">Xorazm</option>
+                                </select>
+                            </div>
+                            <div class="" style="margin:20px 0">
+                                <input class="input form-control  " type="text" name="ism" placeholder="Ismingiz"
+                                       required="">
+                            </div>
+                            <div class="">
+                                <input class="input form-control  " type="number" name="telefon"
+                                       placeholder="Telefon raqamingiz" required="">
+                            </div>
+                            <button  class="btn btn-lg btn-success new-sbm-btn btn-block" type="submit" name="submit"
+                                     style="margin:20px 0;  border: 1px solid #fff; border-radius: 50px;" style="border-radius: 50px; border: 1px solid #fff">Buyurtma
+                                berish
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div id="spec-1" class="features-boxed" style="background: #FFFFFF; padding-bottom: 10px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="boxed-intro text-center wow fadeInDown">
+                            <h4>Vibra Stick</h4>
+                            <h1>Vibra Stick qanday natija beradi?</h1>
+                            <p>Bu vosita egalari shunday afzalliklarga ega bo'lishadi</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 wow fadeInDown text-center">
+                        <div class="box-inner" >
+                            <div class="box-icon" >
+                                <img src="{% static 'vibro/images/vazn-1.png' %}" width="100%" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Vazn</h1>
+                                <p>Ortiqcha vazndan halos etadi</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 wow fadeInDown text-center">
+                        <div class="box-inner">
+                            <div class="box-icon">
+                                <img src="{% static 'vibro/images/mushak-1.png' %}" width="100%" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Mushak</h1>
+                                <p>Qorin mushaklarini samarali chiqaradi</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 wow fadeInDown text-center">
+                        <div class="box-inner" >
+                            <div class="box-icon">
+                                <img src="{% static 'vibro/images/yelka-1.png' %}" width="100%"  alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Ko'rkam</h1>
+                                <p> Keng yelka hosil qiladi</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-md-offset-2 wow  fadeInDown text-center">
+                        <div class="box-inner" >
+                            <div class="box-icon" >
+                                <img src="{% static 'vibro/images/qomat-1.png' %}" width="100%" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Qomat</h1>
+                                <p> Chiroyli qomatni shakllantiradi</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 wow fadeInDown text-center">
+                        <div class="box-inner" >
+                            <div class="box-icon" >
+                                <img src="{% static 'vibro/images/quvat-1.png' %}" width="100%" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Quvvatsizlik</h1>
+                                <p>Tanadagi og'irlik va charchoqni olib, badaningizni quvvatga to'ldiradi</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <a class="btn btn-lg btn-success new-sbm-btn hidden-button wow fadeInDown" style="border-radius: 50px; border: 1px solid #fff; margin-bottom: 10px; !important;" data-wow-delay="0.3s" href="#reviews"
+                style="margin:0 auto;">Buyurtma
+            berish
+        </a>
+
+
+          <div id="spec-2" class="features-boxed">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="boxed-intro text-center wow fadeInDown">
+                            <h4>Vibra Stick</h4>
+                            <h1>Qulayliklari</h1>
+                            <p>Bu vosita egalari shunday qulayliklarga ega bo'lishadi</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInDown ">
+                        <div class="box-inner">
+                            <div class="box-icon">
+                                <img src="{% static 'vibro/icons/arzon-1.png' %}" width="45" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Arzon narx</h1>
+                                <p>Hamyon bop narx va talabga javob beradigon sifatli vosita.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 wow fadeInDown ">
+                        <div class="box-inner">
+                            <div class="box-icon">
+                                <img src="{% static 'vibro/icons/sifat.webp' %}" width="45" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Sifatli xizmat</h1>
+                                <p>Sifatli va samarali xizmat qilishiga kafolat beramiz. Sinovdan o'tgan sifat.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 wow fadeInDown ">
+                        <div class="box-inner">
+                            <div class="box-icon">
+                                <img src="{% static 'vibro/icons/tolov.webp' %}" width="45" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Oldindan tolov yo'q</h1>
+                                <p>Mahsulotni qo'lingizga olib, keyin to'lovni amalga oshirasiz!</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-4 col-sm-4 col-md-offset-2 wow fadeInDown ">
+                        <div class="box-inner">
+                            <div class="box-icon">
+                                <img src="{% static 'vibro/icons/delivery.png' %}" width="45" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Bepul yetkazib berish</h1>
+                                <p>O'zbekiston bo'ylab uyingizga 72 soat ichida  <b style="font-weight: 800; color: #0b0b0b">TEKIN</b> yetkazib beramiz.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4  wow fadeInDown ">
+                        <div class="box-inner">
+                            <div class="box-icon">
+                                <img src="{% static 'vibro/icons/natija.png' %}" width="45" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Samarali natija</h1>
+                                <p>
+                                    Ortiqcha vazn va qorindagi yog'larsiz hayotga qadam bosing.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="buy" class="container cta" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-7">
+                        <div class="cta-inner">
+                            <img class="hidden-image" src="{% static 'vibro/images/features-5.svg' %}" alt="#" style="width: 100%; height: 300px; margin-top: 0 !important;">
+                            <h1>Vibra Stick</h1>
+                            <p>Tabiiy ozish va tanani chiniqtirish uchun!</p>
+                            <h2>197,000 so'm</h2>
+                            <ul>
+                                <li>O'zbekiston bo'ylab  yetkazib berish bepul</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="py-2 py-md-2 mb-0 inverse-section" id="reviews" >
+
+            <div class="container to-top mt-2 px-4 px-md-0">
+
+                <div class="row mb-3 mt-5 text-center" style="margin-top: 30px !important;">
+
+                    <div class="col-12 col-md-4 animate__animated  animate__fadeInUp form-item">
+                        <img src="{% static 'vibro/icons/anketa-1.svg' %}" width="45" alt="Feature">
+                        <hr>
+                        <span class="d-flex align-items-center mb-3 mb-md-2 text-left"> <strong
+                                class="ml-2  " style="border-radius: 50px; border: 1px solid #fff; font-family: 'Poppins', sans-serif">  Anketani to'ldiring!</strong></span>
+                    </div>
+
+
+
+                    <div class="col-12 col-md-4 animate__animated  animate__fadeInUp form-item">
+                        <img src="{% static 'vibro/icons/aloqa.svg' %}" width="45" alt="Feature">
+                        <hr>
+                        <span class="d-flex align-items-center mb-3 mb-md-2 text-left"><strong
+                                class="ml-2  " style="border-radius: 50px; font-family: 'Poppins', sans-serif"> To'liq ma'lumot berish va buyurtmangizni tasdiqlash uchun, operator siz bilan qayta bog'lanadi!</strong></span>
+                    </div>
+
+
+                    <div class="col-12 col-md-4 animate__animated  animate__fadeInUp form-item" id="form">
+                        <img src="{% static 'vibro/icons/delivery-1.svg' %}" width="70" alt="Feature">
+                        <hr>
+                        <span class="d-flex align-items-center mb-3 mb-md-2 text-left"> <strong
+                                class="ml-2 " style="font-family: 'Poppins', sans-serif"> Buyurtmangizni 72 soat ichida BEPUL yetkazib beramiz!</strong></span>
+                    </div>
+
+                    <div class="col-12 col-md-4 animate__animated  animate__fadeInUp form-item col-md-offset-4" id="form" style="margin-top: 40px !important;">
+                        <img src="{% static 'vibro/icons/arzon-1.png' %}" width="60" alt="Feature">
+                        <hr>
+                        <span class="d-flex align-items-center mb-3 mb-md-2 text-left"> <strong
+                                class="ml-2 " style="font-family: 'Poppins', sans-serif">Mahsulotingizni qo'lingizga olib, keyin to'lovni amalga oshirasiz!</strong></span>
+                    </div>
+
+
+                </div>
+
+
+
+                <br><br><br><br>
+
+                <div class="row d-flex align-items-center justify-content-center " style="padding-bottom: 30px">
+                    <div class="container" style="max-width: 800px;padding: 15px;
+                            height: 260px;
+                            width: 100%;
+                            margin-padding: 30px;
+                            background: white;
+                            ">
+                        <h1 class="text-center" style="font-weight: 900; font-family: 'Poppins', sans-serif;" style="border-radius: 50px; border: 1px solid #fff;">Buyurtma uchun pastdagi anketani to'ldiring:</h1>
+                        <br><br>
+                        <form action="https://batafsil.com/order" method="post" class="orderformcdn p-5">
+                            <input type="hidden" name="_token" value="t5qXb09iC9a8s2zlykss0QSKMtXwIvrI568ZyeOM">
+                            <div class="">
+                                <select class="form-control country_select input  " required="" name="region">
+                                    <option disabled="" selected="" value="">Hududni tanlang</option>
+                                    <option value="1">Andijon</option>
+                                    <option value="2">Buxoro</option>
+                                    <option value="3">Fargʻona</option>
+                                    <option value="4">Jizzax</option>
+                                    <option value="5">Namangan</option>
+                                    <option value="6">Navoiy</option>
+                                    <option value="7">Qashqadaryo</option>
+                                    <option value="8">Qoraqalpogʻiston</option>
+                                    <option value="9">Samarqand</option>
+                                    <option value="10">Sirdaryo</option>
+                                    <option value="11">Surxondaryo</option>
+                                    <option value="12">Toshkent</option>
+                                    <option value="13">Toshkent viloyati</option>
+                                    <option value="14">Xorazm</option>
+                                </select>
+                            </div>
+                            <div class="" style="margin:20px 0">
+                                <input class="input form-control  " type="text" name="name" placeholder="Ismingiz"
+                                       required="">
+                            </div>
+                            <div class="">
+                                <input class="input form-control  " type="number" name="phone"
+                                       placeholder="Telefon raqamingiz" required="">
+                            </div>
+                            <input type="hidden" value="eyJvZmZlciI6IjZuMXA4Iiwic3RyZWFtIjoiUUxQamcifQ==" name="meta">
+                            <button  class="btn btn-lg btn-success new-sbm-btn btn-block" type="submit" name="submit"
+                                    style="margin:20px 0;  border: 1px solid #fff; border-radius: 50px;" style="border-radius: 50px; border: 1px solid #fff">Buyurtma
+                                berish
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+
+
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="ft-left">
+
+                            <p> &copy; Copyright <strong><span class="footer-text">Bestore</span></strong>. Mualliflik huquqi mavjud
+                                2022</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div> <!-- Main -->
+
+
+
+
+</div><!-- Wrapper -->
+
+
+
+
+
+
+<!-- Jquery and Js Plugins -->
+<script type="text/javascript" src="{% static 'vibro/js/jquery-2.1.1.js' %}"></script>
+<script type="text/javascript" src="{% static 'vibro/js/bootstrap.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'vibro/js/jquery.validate.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'vibro/js/plugins.js' %}"></script>
+<script type="text/javascript" src="{% static 'vibro/js/validator.js' %}"></script>
+<script type="text/javascript" src="{% static 'vibro/js/custom.js' %}"></script>
+</body>
+</html>

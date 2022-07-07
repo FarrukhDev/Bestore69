@@ -1,0 +1,63 @@
+.call-icon{
+    position: fixed;
+    top: 90vh;
+    left: 5vw;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 45px;
+    transition: all 1s;
+    z-index: 11;
+    box-shadow: 0 0 5px #41CD52;
+}
+.call-icon svg{
+    stroke: #fff;
+ }
+.call-icon div{
+    position: relative;
+    z-index: 99 !important;
+    width: 70px !important;
+    height: 70px !important;
+    background-color: #41CD52;
+    padding: 15px;
+    border-radius: 90%;
+}
+.call-icon a{
+    z-index: 1;
+    font-size: 20px;
+    padding: 25px 15px 25px 80px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: -200px;
+    top: 0;
+    border-radius: 45px;
+    transition: all 1s;
+    text-decoration: none;
+    color: #41CD52;
+    font-family: 'Poppins', sans-serif;
+
+}
+.call-icon:hover{
+    width: 253px;
+}
+.call-icon:hover a{
+    left: 0;
+}
+.custom-video{
+    display: block;
+    margin: 50px auto;
+    width: 95%;
+    height: 500px;
+
+}
+@media only screen and (max-width:500px){
+    .call-icon{
+        top: 85vh;
+    }
+    .custom-video{
+    height: 300px;
+    }
+}
+
+
+

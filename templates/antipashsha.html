@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>O'zbekiston uchun pashlaradan himoya</title>
+    <link rel="icon" href="{% static 'anti/images/anti-insect-icon.svg' %}" type="image/svg" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="O'zbekiston uchun pashlaradan himoya">
+    <meta name="keywords" content="O'zbekiston uchun pashlaradan himoya vositasi">
+    <link href="{% static 'anti/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'anti/css/animate.css' %}"> <!-- Resource style -->
+    <link rel="stylesheet" href="{% static 'anti/css/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'anti/css/owl.theme.css' %}">
+    <link rel="stylesheet" href="{% static 'anti/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'anti/css/ionicons.min.css' %}"> <!-- Resource style -->
+    <link href="{% static 'anti/css/style.css' %}" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{% static 'anti/css/custom.css' %}">
+    <style>
+        .hidden-link:active{
+        text-decoration: none;
+            outline: none;
+            border: none !important;
+        }
+        .hidden-link:hover{
+            text-decoration: none;
+            outline: none;
+        }
+
+    </style>
+</head>
+<body>
+<div class="call-icon">
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+        </svg>
+    </div>
+    <a href="tel:+998950907849">(95) 090-78-49</a>
+
+</div>
+<div class="wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo-main" href="https://bestore.uz/" style="padding: 8px 0">
+                    <img src="{% static 'anti/images/bestore.png' %}" alt="">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a class="page-scroll" href="#main">Bosh sahifa</a></li>
+                    <li><a class="page-scroll" href="#features">Antipashsha samarasi</a></li>
+                    <li><a class="page-scroll" href="#spec-1">Afzalliklar</a></li>
+                    <li><a class="page-scroll" href="#spec-2">Qulayliklar</a></li>
+                    <li><a class="page-scroll" href="#buy">Narxlar</a></li>
+                    <li><a href="#reviews" style="border-radius: 50px; border: 1px solid #fff" class="btn btn-nav page-scroll wow fadeInDown" data-wow-delay="0.3s"><span>Buyurtma berish</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><!-- /.navbar-collapse -->
+
+    <div id="main" class="main main-2">
+        <div class="hero-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-6">
+                        <div class="intro">
+                            <h1 class="wow fadeInDown" data-wow-delay="0.1s"><span>Anti</span> pashsha</h1>
+                            <p class="wow fadeInDown" data-wow-delay="0.2s">Uyingizni zarar kunanda hashoratlardan
+                                saqlashning eng zo'r usuli. Hashoratlarga qarshi urush e'lon qiling!</p>
+                            <!--                  <a href="#" class="btn btn-action btn-fb wow fadeInDown" data-wow-delay="0.3s"><span>Buy Now</span></a>-->
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-6">
+                        <img class="img-responsive mobile-img" src="assets{% static 'anti/images/product-2.png' %}" alt="Feature">
+                    </div>
+                </div>
+            </div>
+        </div><!-- Pi-Hero -->
+
+        <div id="features" class="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="features-text wow fadeInDown">
+                            <h2 style="font-weight: 900;">Antipashsha samarasi</h2>
+                            <p>Ushbu qurilma uyingizdagi barcha zararkunandalar: kalamush, sichqon, suvarak, kuya, pashsha, chivin va boshqa ko'plab sizni tinchingizni buzuvchi hashoratlarni yo'q qiladi. Antipashsha vositasini elektr rozetkasiga ulash kifoya va qurulma impuls yaratib, kuniga 24 soat kemiruvchilar va hasharotlarni uydan uzoqlashtirishga tayyor! Endi kemiruvchilar uchun qopqon qo'yishingiz kerak bo'lmaydi va undan tashqari har-xil ularning badbo'y hididan asraydi. Qurilma zararkunandalarni o'ldirmaydi, balki yaqin atrofni tark etishga majbur qiladi, shuning uchun siz o'lik zararkunandalarni tozalashingiz va ularni qidirishingiz shart emas.
+                                <br><br>
+
+                                Oziq-ovqatni ifloslantiradigan turli hildagi uchuvchi hasharotlarni quvib, pokiza saqlanishlikga yordam beradi. Va albatta shirin uyquyingizni buzuvchi: chivin, pashsha vahokazolarni yo'q qiladi, rohatlanib dam olishingizni taminlab beradi!</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="features-image wow fadeInRight">
+                            <img class="img-responsive " src="{% static 'anti/images/feature-3.png' %}" alt="Image"
+                                 style="height: 500px; width: 100% !important;">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <iframe class="custom-video"  src="https://www.youtube.com/embed/d6gkI5dNwHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+<!--                    <a class="hidden-link" href="#reviews">-->
+<!--                        <button  class="btn btn-lg btn-success new-sbm-btn btn-block" type="submit" name="submit"-->
+<!--                                 style="margin:20px 0;  border: 1px solid #fff; border-radius: 50px;" style="border-radius: 50px; border: 1px solid #fff">Buyurtma-->
+<!--                            berish-->
+<!--                        </button>-->
+<!--                    </a>-->
+                </div>
+
+
+                <div class="row d-flex align-items-center justify-content-center " style="padding-bottom: 20px">
+                    <div class="container" style="max-width: 800px;padding: 15px;
+                            height: 260px;
+                            width: 100%;
+                            margin-padding: 30px;
+                            background: white;
+                            ">
+                        <h1 class="text-center" style="font-weight: 900; font-family: 'Poppins', sans-serif;" style="border-radius: 50px; border: 1px solid #fff">Buyurtma uchun pastdagi anketani to'ldiring:</h1>
+                        <br><br>
+                        <form action="" method="post" >
+                            {% csrf_token %}
+                            <div class="">
+                                <select class="form-control country_select input  " required="" name="citi">
+                                    <option disabled="" selected="" value="">Hududni tanlang</option>
+                                    <option value="1">Andijon</option>
+                                    <option value="2">Buxoro</option>
+                                    <option value="3">Fargʻona</option>
+                                    <option value="4">Jizzax</option>
+                                    <option value="5">Namangan</option>
+                                    <option value="6">Navoiy</option>
+                                    <option value="7">Qashqadaryo</option>
+                                    <option value="8">Qoraqalpogʻiston</option>
+                                    <option value="9">Samarqand</option>
+                                    <option value="10">Sirdaryo</option>
+                                    <option value="11">Surxondaryo</option>
+                                    <option value="12">Toshkent</option>
+                                    <option value="13">Toshkent viloyati</option>
+                                    <option value="14">Xorazm</option>
+                                </select>
+                            </div>
+                            <div class="" style="margin:20px 0">
+                                <input class="input form-control  " type="text" name="ism" placeholder="Ismingiz"
+                                       required="">
+                            </div>
+                            <div class="">
+                                <input class="input form-control  " type="number" name="telefon"
+                                       placeholder="Telefon raqamingiz" required="">
+                            </div>
+                            <button  class="btn btn-lg btn-success new-sbm-btn btn-block" type="submit" name="submit"
+                                     style="margin:20px 0;  border: 1px solid #fff; border-radius: 50px;" style="border-radius: 50px; border: 1px solid #fff">Buyurtma
+                                berish
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+        <div id="spec-1" class="features-boxed" style="background: #FFFFFF; padding-bottom: 10px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="boxed-intro text-center wow fadeInDown">
+                            <h4>Anti pashsha</h4>
+                            <h1>Afzalliklar</h1>
+                            <p>Bu vosita egalari shunday afzalliklarga ega bo'lishadi</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInDown text-center">
+                        <div class="box-inner" style="border-radius: 50% !important;">
+                            <div class="box-icon" >
+                                <img src="{% static 'anti/icons/himoya.png' %}" width="60" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Himoya</h1>
+                                <p>Uy, ofis va omborxonalarni 80 kv metrgacha himoyalaydi!</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 wow fadeInDown text-center">
+                        <div class="box-inner" style="border-radius: 50% !important;">
+                            <div class="box-icon">
+                                <img src="{% static 'anti/icons/xavfsiz.png' %}" width="45" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Xavfsiz</h1>
+                                <p>Bolalar, insonlar va jonzotlarga hech qanday zarari yo'q!</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 wow fadeInDown text-center">
+                        <div class="box-inner" style="border-radius: 50% !important;">
+                            <div class="box-icon">
+                                <img src="{% static 'anti/icons/tejamkor.png' %}" width="60" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Tejamkor</h1>
+                                <p>Bir oylik elektr sarfi atiga <b style="font-weight: 800; color: #0b0b0b">1.400</b> so'mni tashkil etadi!</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <a class="btn btn-lg btn-success new-sbm-btn hidden-button wow fadeInDown" style="border-radius: 50px; border: 1px solid #fff" data-wow-delay="0.3s" href="#reviews"
+                style="margin:0 auto;">Buyurtma
+            berish
+        </a>
+
+
+          <div id="spec-2" class="features-boxed">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="boxed-intro text-center wow fadeInDown">
+                            <h4>Anti pashsha</h4>
+                            <h1>Qulayliklari</h1>
+                            <p>Bu vosita egalari shunday qulayliklarga ega bo'lishadi</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInDown ">
+                        <div class="box-inner">
+                            <div class="box-icon">
+                                <img src="{% static 'anti/icons/arzon-1.png' %}" width="45" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Arzon narx</h1>
+                                <p>Hamyon bop narx va talabga javob beradigon sifatli vosita.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 wow fadeInDown ">
+                        <div class="box-inner">
+                            <div class="box-icon">
+                                <img src="{% static 'anti/icons/sifat.webp' %}" width="45" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Sifatli xizmat</h1>
+                                <p>Sifatli va samarali xizmat qilishiga kafolat beramiz. Sinovdan o'tgan sifat.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 wow fadeInDown ">
+                        <div class="box-inner">
+                            <div class="box-icon">
+                                <img src="{% static 'anti/icons/tolov.webp' %}" width="45" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Oldindan tolov yo'q</h1>
+                                <p>Mahsulotni qo'lingizga olib, keyin to'lovni amalga oshirasiz!</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-4 col-sm-4 col-md-offset-2 wow fadeInDown ">
+                        <div class="box-inner">
+                            <div class="box-icon">
+                                <img src="{% static 'anti/icons/delivery.png' %}" width="45" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Bepul yetkazib berish</h1>
+                                <p>O'zbekiston bo'ylab uyingizga 72 soat ichida  <b style="font-weight: 800; color: #0b0b0b">TEKIN</b> yetkazib beramiz.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4  wow fadeInDown ">
+                        <div class="box-inner">
+                            <div class="box-icon">
+                                <img src="{% static 'anti/icons/natija.png' %}" width="45" alt="Feature">
+                            </div>
+                            <div class="box-info">
+                                <h1>Samarali natija</h1>
+                                <p>Shirin va osuda uyqu ximoyachisi o'zingizni va uyqingizni ximoya qiladi.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="buy" class="cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-7">
+                        <div class="cta-inner">
+                            <h1>Anti Pashsha</h1>
+                            <p>Tinch uyqu garovi.</p>
+                            <h2>147,000 so'm</h2>
+                            <ul>
+                                <li>O'zbekiston bo'ylab  yetkazib berish bepul</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="py-2 py-md-2 mb-0 inverse-section" id="reviews" >
+            <div class="container to-top mt-0 px-4 px-md-0">
+                <div class="row mb-3 mt-5 text-center">
+                    <div class="col-12 col-md-4 animate__animated  animate__fadeInUp form-item">
+                        <img src="{% static 'anti/icons/sifat.webp' %}" width="45" alt="Feature">
+                        <hr>
+                        <span class="d-flex align-items-center mb-3 mb-md-2 text-left"> <strong
+                                class="ml-2  " style="border-radius: 50px; border: 1px solid #fff">  Mahsulotga buyurtma qoldiring!</strong></span>
+                    </div>
+
+                    <div class="col-12 col-md-4 animate__animated  animate__fadeInUp form-item">
+                        <img src="{% static 'anti/icons/delivery.png' %}" width="45" alt="Feature">
+                        <hr>
+                        <span class="d-flex align-items-center mb-3 mb-md-2 text-left"><strong
+                                class="ml-2  " style="border-radius: 50px; border: 1px solid #fff"> Buyurtmangizni 72 soat ichida BEPUL yetkazib beramiz!</strong></span>
+                    </div>
+                    <div class="col-12 col-md-4 animate__animated  animate__fadeInUp form-item" id="form">
+                        <img src="{% static 'anti/icons/arzon-1.png' %}" width="45" alt="Feature">
+                        <hr>
+                        <span class="d-flex align-items-center mb-3 mb-md-2 text-left"> <strong
+                                class="ml-2 ">Mahsulotingizni qo'lingizga olib, keyin to'lovni amalga oshirasiz!</strong></span>
+                    </div>
+                </div>
+
+
+
+                <br><br><br>
+
+                <div class="row d-flex align-items-center justify-content-center " style="padding-bottom: 20px">
+                    <div class="container" style="max-width: 800px;padding: 15px;
+                            height: 260px;
+                            width: 100%;
+                            margin-padding: 30px;
+                            background: white;
+                            ">
+                        <h1 class="text-center" style="font-weight: 900; font-family: 'Poppins', sans-serif;" style="border-radius: 50px; border: 1px solid #fff">Buyurtma uchun pastdagi anketani to'ldiring:</h1>
+                        <br><br>
+                        <form action="https://batafsil.com/order" method="post" class="orderformcdn p-5">
+                            <input type="hidden" name="_token" value="seVEFB2blZ588Y0mD9aTRkf1NJt8ShdXrgRjFY4K">
+                            <div class="">
+                                <select class="form-control country_select input  " required="" name="region">
+                                    <option disabled="" selected="" value="">Hududni tanlang</option>
+                                    <option value="1">Andijon</option>
+                                    <option value="2">Buxoro</option>
+                                    <option value="3">Fargʻona</option>
+                                    <option value="4">Jizzax</option>
+                                    <option value="5">Namangan</option>
+                                    <option value="6">Navoiy</option>
+                                    <option value="7">Qashqadaryo</option>
+                                    <option value="8">Qoraqalpogʻiston</option>
+                                    <option value="9">Samarqand</option>
+                                    <option value="10">Sirdaryo</option>
+                                    <option value="11">Surxondaryo</option>
+                                    <option value="12">Toshkent</option>
+                                    <option value="13">Toshkent viloyati</option>
+                                    <option value="14">Xorazm</option>
+                                </select>
+                            </div>
+                            <div class="" style="margin:20px 0">
+                                <input class="input form-control  " type="text" name="name" placeholder="Ismingiz"
+                                       required="">
+                            </div>
+                            <div class="">
+                                <input class="input form-control  " type="number" name="phone"
+                                       placeholder="Telefon raqamingiz" required="">
+                            </div>
+                            <input type="hidden" value="eyJvZmZlciI6IjMwMWlhIiwic3RyZWFtIjoiOVI0d3cifQ==" name="meta">
+                            <button  class="btn btn-lg btn-success new-sbm-btn btn-block" type="submit" name="submit"
+                                    style="margin:20px 0;  border: 1px solid #fff; border-radius: 50px;" style="border-radius: 50px; border: 1px solid #fff">Buyurtma
+                                berish
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+
+
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="ft-left">
+
+                            <p> &copy; Copyright <strong><span class="footer-text">Bestore</span></strong>. Mualliflik huquqi mavjud
+                                2022</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div> <!-- Main -->
+
+
+
+
+</div><!-- Wrapper -->
+
+
+
+
+
+
+<!-- Jquery and Js Plugins -->
+<script type="text/javascript" src="{% static 'anti/js/jquery-2.1.1.js' %}"></script>
+<script type="text/javascript" src="{% static 'anti/js/bootstrap.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'anti/js/jquery.validate.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'anti/js/plugins.js' %}"></script>
+<script type="text/javascript" src="{% static 'anti/js/validator.' %}"></script>
+<script type="text/javascript" src="{% static 'anti/js/custom.js' %}"></script>
+</body>
+</html>
